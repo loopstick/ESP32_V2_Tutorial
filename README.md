@@ -145,7 +145,10 @@ some more code anatomy - info about an Arduino [Sketch](https://www.arduino.cc/e
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
 
  - [ESP32 V2 pinouts](https://learn.adafruit.com/adafruit-esp32-feather-v2/pinouts)
+
 ![feather v2 pinout](/images/adafruit_products_FV2_pinouts_guide.jpg)
+
+![feather v2 pinout](/images/adafruit_products_Adafruit_ESP32_Feather_V2_Pinout.png)
 
 <!--
 ![feather_pinouttop](/images/feather_pinouttop.jpg)
