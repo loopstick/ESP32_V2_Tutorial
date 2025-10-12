@@ -1,10 +1,10 @@
 ### Hands-on ESP32 Tutorial
 
-**This tutorial created by Sudhu Tewari 2020**
+**This tutorial created by Sudhu Tewari 2025**
  - from materials originally created by: Michael Shiloh and Judy Castro for *Teach Me To Make*
 
 #### Tutorial overview
-The tutorial will focus on getting you up and running with Arduino quickly, so that you will understand the basic procedures for working with your ESP32 (specifically [Adafruit's Huzzah32](https://www.adafruit.com/product/3405)) and the Arduino IDE and can explore further on your own.
+The tutorial will focus on getting you up and running with Arduino quickly, so that you will understand the basic procedures for working with your ESP32 (specifically the [Adafruit ESP32 Feather v2](https://www.adafruit.com/product/5400)) and the Arduino IDE and can explore further on your own.
 
 We will cover how to install Arduino on your laptop; how to understand, modify, and write Arduino programs; how to connect input devices and sensors to your ESP32 and read them from a program; and how to connect actuators (LEDs, motors, speakers) and control them from a program. Other topics will be covered as interest dictates and time permits.
 
@@ -18,21 +18,22 @@ What is ESP32?
 	from [espressif](https://www.espressif.com/en/products/hardware/esp32/overview)
 
 ### Start Here
-- Read: Adafruit's HUZZAH32 - ESP32 Feather [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather)
-  - download as [PDF](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf?timestamp=1583087040)
+- Read: Adafruit's HUZZAH32 - ESP32 Feather V2 [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-esp32-feather-v2)
+  - download as [PDF](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-esp32-feather-v2.pdf)
 - Install Arduino IDE
   - Arduino software (IDE) runs on Windows, Mac OSX, and Linux.
   - Please download and install the (free) Arduino software prior to the workshop from http://arduino.cc/en/Main/Software.  
     - Instructions at http://arduino.cc/en/Guide/HomePage  
 - Install ESP32 drivers:
-  - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+  <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
 - Add ESP32 to Arduino IDE Boards Manager
-  - Use one of the following (whichever suits you best):
+  <!-- - Use one of the following (whichever suits you best):
     - Random Nerd Tutorials [Installing the ESP32 Board in Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
     - Espressif's github [arduino-esp32 install instructions](https://github.com/espressif/arduino-esp32#installation-instructions)
     - ESP32 URL: https://dl.espressif.com/dl/package_esp32_index.json - for Boards Manager install
       - Board Manager: Tools > Board > Boards Manager
       - search for ESP32 - install ESP32 by Espressif Systems
+      -->
 
 
 #### First steps: Verifying correct installation
@@ -111,7 +112,7 @@ How does the program (sketch) do this? (all described in the [Blink tutorial](h
 
   Turns an LED on for one second, then off for one second, repeatedly.
 
-  Most Arduinos have an on-board LED you can control. 
+  Most Arduinos have an on-board LED you can control.
   On the UNO it is attached to digital pin 13
 
   This example code is modified from.
