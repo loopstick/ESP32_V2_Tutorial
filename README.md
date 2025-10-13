@@ -18,7 +18,7 @@ What is ESP32?
 	from [espressif](https://www.espressif.com/en/products/hardware/esp32/overview)
 
 ### Start Here
-- Read: Adafruit's HUZZAH32 - ESP32 Feather V2 [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-esp32-feather-v2)
+- Read: Adafruit's ESP32 Feather V2 [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-esp32-feather-v2)
   - download as [PDF](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-esp32-feather-v2.pdf)
 - Install Arduino IDE
   - Arduino software (IDE) runs on Windows, Mac OSX, and Linux.
