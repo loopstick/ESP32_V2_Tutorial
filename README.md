@@ -23,7 +23,6 @@ What is ESP32?
 - Install Arduino IDE
   - Arduino software (IDE) runs on Windows, Mac OSX, and Linux.
   - Please download and install the (free) Arduino software prior to the workshop from http://arduino.cc/en/Main/Software.  
-    - Instructions at http://arduino.cc/en/Guide/HomePage  
 - [Install ESP32 drivers and Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup)
   - if you are not sure which USB-to-serial driver chip you have, install both!!
 - [Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup#install-esp32-board-support-package-3112219)
