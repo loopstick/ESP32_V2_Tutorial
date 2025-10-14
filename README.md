@@ -27,7 +27,7 @@ What is ESP32?
 - Install ESP32 drivers and Add ESP32 to Arduino IDE Boards Manager:
   - https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup
   <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
-- 
+-
   <!-- - Use one of the following (whichever suits you best):
     - Random Nerd Tutorials [Installing the ESP32 Board in Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
     - Espressif's github [arduino-esp32 install instructions](https://github.com/espressif/arduino-esp32#installation-instructions)
@@ -113,8 +113,8 @@ How does the program (sketch) do this? (all described in the [Blink tutorial](h
 
   Turns an LED on for one second, then off for one second, repeatedly.
 
-  Most Arduinos have an on-board LED you can control.
-  On the UNO it is attached to digital pin 13
+  Most Arduino boards have an on-board LED you can control.
+  On the ESP32 Feather V2 it is attached to digital pin 13
 
   This example code is modified from.
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
@@ -124,7 +124,7 @@ int led = 13;  // define a variable to hold the pin number of the internal LED
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
+  // initialize digital pin "led" as an output.
   pinMode(led, OUTPUT);
 }
 
@@ -138,7 +138,7 @@ void loop() {
 ```
 Where is the LED that we're turning on and off???
 
-!https://learn.adafruit.com/assets/117632
+![feather v2 builtin LED]](/images/ESP32V2_internalLED.png)
 some more code anatomy - info about an Arduino [Sketch](https://www.arduino.cc/en/tutorial/sketch)
 
 ##### Exercise:
