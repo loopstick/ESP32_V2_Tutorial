@@ -53,8 +53,8 @@ What is ESP32?
 4. Select _Tools -> Serial Port_
    - Windows? Chose the largest COM number
      - No COMs? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
-   - Mac OS X? Chose /dev/cu.SLAB_USDtoUART
-     - No usbmodem? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
+   - Mac OS X? Choose dev/cu.usbserial******* or /dev/cu.SLAB_USDtoUART
+     - No dev/cu? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
    - Linux? There is only one choice
 
 5. Open _File->Examples->Basics->Blink_
