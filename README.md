@@ -138,7 +138,7 @@ void loop() {
 ```
 Where is the LED that we're turning on and off???
 
-![feather v2 builtin LED]](/images/ESP32V2_internalLED.png)
+![feather v2 builtin LED](/images/ESP32V2_internalLED.png)
 some more code anatomy - info about an Arduino [Sketch](https://www.arduino.cc/en/tutorial/sketch)
 
 ##### Exercise:
