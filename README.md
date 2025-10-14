@@ -136,6 +136,9 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+Where is the LED that we're turning on and off???
+
+!https://learn.adafruit.com/assets/117632
 some more code anatomy - info about an Arduino [Sketch](https://www.arduino.cc/en/tutorial/sketch)
 
 ##### Exercise:
