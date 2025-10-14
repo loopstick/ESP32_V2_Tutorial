@@ -4,7 +4,7 @@
  - from materials originally created by: Michael Shiloh and Judy Castro for *Teach Me To Make*
 
 #### Tutorial overview
-The tutorial will focus on getting you up and running with Arduino quickly, so that you will understand the basic procedures for working with your ESP32 (specifically the [Adafruit ESP32 Feather v2](https://www.adafruit.com/product/5400)) and the Arduino IDE and can explore further on your own.
+The tutorial will focus on getting you up and running quickly, so that you will understand the basic procedures for working with your ESP32 (specifically the [Adafruit ESP32 Feather v2](https://www.adafruit.com/product/5400)) and the Arduino IDE and can explore further on your own.
 
 We will cover how to install Arduino on your laptop; how to understand, modify, and write Arduino programs; how to connect input devices and sensors to your ESP32 and read them from a program; and how to connect actuators (LEDs, motors, speakers) and control them from a program. Other topics will be covered as interest dictates and time permits.
 
