@@ -167,6 +167,7 @@ In order to connect inputs or outputs to your microcontroller you need to know w
 ### Using a solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.)
 
 The Solderless Breadboard
+- [Breadboards for Beginners](https://learn.adafruit.com/breadboards-for-beginners/breadboards)
 - [How to use a Breadboard tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
 - [Breadboard connections](http://wiring.org.co/learning/tutorials/breadboard/)
 
@@ -174,7 +175,9 @@ The Solderless Breadboard
 
 ![Breadboard underside](/images/BreadboardUnderside_st.jpg)
 
-![Breadboard top and bottom](/images/breadboardTopBottom.mp4)
+<!-- ![Breadboard top and bottom](/images/breadboardTopBottom.mp4) -->
+
+![Breadboard top and bottom](https://cdn-learn.adafruit.com/assets/assets/000/035/419/original/components_halfbb.gif?1472966532)
 
 
 Use the breadboard to add an external LED.
