@@ -174,7 +174,7 @@ The Solderless Breadboard
 
 ![Breadboard underside](/images/BreadboardUnderside_st.jpg)
 
-![Breadboard tom and bottom](/images/breadboardTopBottom.mp4)
+![Breadboard top and bottom](/images/breadboardTopBottom.mp4)
 
 
 Use the breadboard to add an external LED.
