@@ -510,9 +510,9 @@ The transistor is like a bicycle gear: you control it with a small amount of cur
 Use a transistor to control a higher current for a motor.
  - There are hundreds of transisors that will work for this application.
    - here are a few that I commonly use:
-	- [TIP120](https://cdn-shop.adafruit.com/datasheets/TIP120.pdf) - Darlington sold by Adafruit
+	- [TIP120](https://cdn-shop.adafruit.com/datasheets/TIP120.pdf)
 	- [IRF520](https://www.vishay.com/docs/91017/91017.pdf)
-	- [IRF8721](https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf) - MOSFET sold by Adafruit
+	- [IRF8721](https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf)
   - never assume the pinout of a transistor or IC.
     - ALWAYS look up the pinout before applying power.
       - or else 爆炸
@@ -527,7 +527,7 @@ Can you hook it up like this, with the motor wired directly to the microcontroll
 
 <img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_NoTransistor.png" width="550">
 
-Will it probably damage the microcontroller? YES!
+Will it probably damage the microcontroller? YES! aka 爆炸!
 
 You can test this with any of the code above for driving an LED, replacing the LED with the motor and transistor circuit.
 
