@@ -540,7 +540,7 @@ If you want to understand addressable LEDs (aka neoPixels), read this guide!!
 
 We can start with a simple test to get familiar with the NeoPixel library. When we're ready to control larger numbers of NeoPixels, we'll need to consider power requirements and how to power them safely.
 
-<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_stick_noBB.png" width="850">
+<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_stick_noBB.png" width="650">
 
 NeoPixel example code:
   - FIRST -> install the Adafruit [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) library
