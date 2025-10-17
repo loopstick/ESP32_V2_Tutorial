@@ -578,10 +578,14 @@ NeoPixel example code:
     - [12h_NeoPixel_RGB.ino](/examples/12_NeoPixel/12h_NeoPixel_RGB/12h_NeoPixel_RGB.ino) - RGB LED controls NeoPixel color
     -->
 
+If you are using more than 8 neopixels You must power them with an external power supply!
+
+<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_strip_bb.pngg" width="750">
+
+Also, it is very worthwhile to follow the [Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) given in the [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
 
-Additional Resources:
-- [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+
 
 
 
