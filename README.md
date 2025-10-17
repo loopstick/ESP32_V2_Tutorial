@@ -585,9 +585,9 @@ If you are using more than 8 neopixels You must power them with an external powe
 Also, it is very worthwhile to follow the [Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) given in the [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
 
+***
 
-
-*******************************************************************************
+***
 
 ***
 
@@ -614,6 +614,8 @@ Also, it is very worthwhile to follow the [Best Practices](https://learn.adafrui
     - Processing code - [Art385_ESP32toProcessing_Processing.pde](/examples/Art385_ESP32toProcessing/Art385_ESP32toProcessing_Processing/Art385_ESP32toProcessing_Processing.pde)
     - .zip of the entire bundle - [Art385_ESP32toProcessing_Processing.zip](/examples/Art385_ESP32toProcessing/Art385_ESP32toProcessing.zip)
 -->
+
+***
 
 ### Resources!!!
 - [Dr Sudhu's resources page](https://github.com/loopstick/ResourcesForClasses)
