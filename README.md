@@ -519,12 +519,14 @@ Use a transistor to control a higher current for a motor.
 
 Here's the pinout for a TIP 120 Darlington transistor, rated for up to 60V and 5A
 
-![CircuitExample](/examples/13_DCmotor_transistor/Tip120.png)
+<img src="/examples/13_DCmotor_transistor/Tip120.png" width="4000">
 
 ![CircuitExample](/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_bb.png)
 
 Can you hook it up like this, with the motor wired directly to the microcontroller?? Yes!!
+
 <img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_NoTransistor.png" width="550">
+
 Will it probably damage the microcontroller? YES!
 
 You can test this with any of the code above for driving an LED, replacing the LED with the motor and transistor circuit.
