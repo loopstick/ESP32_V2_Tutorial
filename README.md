@@ -578,7 +578,8 @@ NeoPixel example code:
     - [12h_NeoPixel_RGB.ino](/examples/12_NeoPixel/12h_NeoPixel_RGB/12h_NeoPixel_RGB.ino) - RGB LED controls NeoPixel color
     -->
 
-If you are using more than 8 neopixels You must power them with an external power supply!
+If you are using more than 8 neopixels you must power them with an external power supply!
+  - or else 爆炸
 
 <img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_strip2_bb.png" width="750">
 
