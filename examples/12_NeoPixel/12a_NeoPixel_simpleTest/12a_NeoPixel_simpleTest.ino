@@ -1,5 +1,6 @@
  
 // NeoPixel stick simple sketch (c) 2024 Sudhu Tewari
+// tested with ESP32 Feather V2 10/16/25
 // modified from:
 // NeoPixel Ring simple sketch (c) 2013 Shae Erisson
 // Released under the GPLv3 license to match the rest of the
