@@ -521,7 +521,7 @@ Here's the pinout for a TIP 120 Darlington transistor, rated for up to 60V and 5
 
 <img src="/examples/13_DCmotor_transistor/Tip120.png" width="400">
 
-<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_bb.png.png" width="650">
+<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_bb.png" width="650">
 
 Can you hook it up like this, with the motor wired directly to the microcontroller?? Yes!!
 
