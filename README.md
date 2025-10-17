@@ -588,6 +588,10 @@ Also, it is very worthwhile to follow the [Best Practices](https://learn.adafrui
 
 ***
 
+Roopa's excellent ESP32 V2 webAPI example (including how to connect to Berkeley IoT)
+
+https://github.com/roopa-ramanujam/ESP32-web-api-example
+
 ***
 
 ***
