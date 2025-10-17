@@ -580,7 +580,7 @@ NeoPixel example code:
 
 If you are using more than 8 neopixels You must power them with an external power supply!
 
-<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_strip_bb.png" width="750">
+<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_strip2_bb.png" width="750">
 
 Also, it is very worthwhile to follow the [Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) given in the [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
