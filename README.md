@@ -587,8 +587,9 @@ Also, it is very worthwhile to follow the [Best Practices](https://learn.adafrui
 
 
 
+*******************************************************************************
 
-
+***
 
 ### More to explore
 - **Arduino Language Reference**
