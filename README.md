@@ -536,14 +536,13 @@ Here's the pinout for a TIP 120 Darlington transistor, rated for up to 60V and 5
 
 <img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_bb.png" width="650">
 
-You can test this with any of the code above for driving an LED, just send an analogWrite to pin 12.
+You can test this with any of the code above for driving an LED:
+ - just send an analogWrite to pin 12.
 
-
-
-
-
-It's important to note that we are now using USB as the power source for the motor. For small motors this is probably okay. For larger motors that require more current (>500ma), your computer will probably complain about a device using too much power and will disconnect the USB.
-It is a much better practice to get in the habit of using a separate power source for the motor.
+It's important to note that we are now using USB as the power source for the motor.
+ - For small motors this is probably okay.
+ - For larger motors that require more current (>500ma), your computer will probably complain about a device using too much power and will disconnect the USB.
+ - It is a much better practice to get in the habit of using a separate power source for the motor.
 
 <img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_PwrSply.png" width="650">
 
