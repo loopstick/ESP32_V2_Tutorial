@@ -544,7 +544,7 @@ It's important to note that we are now using USB as the power source for the mot
  - For larger motors that require more current (>500ma), your computer will probably complain about a device using too much power and will disconnect the USB.
  - It is a much better practice to get in the habit of using a separate power source for the motor.
 
-<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_PwrSply.png" width="650">
+<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_PwrSply.png" width="750">
 
 
 #### References:
@@ -580,7 +580,7 @@ NeoPixel example code:
 
 If you are using more than 8 neopixels You must power them with an external power supply!
 
-<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_strip_bb.pngg" width="750">
+<img src="/examples/12_NeoPixel/ESP32V2_NeoPixel_strip_bb.png" width="750">
 
 Also, it is very worthwhile to follow the [Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) given in the [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
