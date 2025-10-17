@@ -504,6 +504,19 @@ of Blink Without Delay, with links to explanations of related concepts every ste
 - The important thing to realize is that the microcontroller does not have the ability to limit this current. It will try to deliver whatever is asked of it, even if it overheats and damages itself.
 - If we want to control a device that might take more than 40 mA, we have to use an intermediary.
 
+****************************************************************************************
+Can we hook it up like this, with the motor wired directly to the microcontroller??   
+ - Yes!!
+
+<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_NoTransistor.png" width="400">
+
+- Will it probably damage the microcontroller?
+  - YES! aka 爆炸!
+
+- Should we use an intermediary to control the high current?
+  - YES!!!!!
+*************************************************
+
 ### Controlling large loads with a transistor
 The transistor is like a bicycle gear: you control it with a small amount of current, and it in turn can control a lot more current. The transistor also allows us to use a higher voltage than the 3.3V the ESP32 can deliver.
 
@@ -525,15 +538,7 @@ Here's the pinout for a TIP 120 Darlington transistor, rated for up to 60V and 5
 
 You can test this with any of the code above for driving an LED, just send an analogWrite to pin 12.
 
-****************************************************************************************
-Can you hook it up like this, with the motor wired directly to the microcontroller??   
- - Yes!!
 
-<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_NoTransistor.png" width="400">
-
-- Will it probably damage the microcontroller?
-  - YES! aka 爆炸!
-*************************************************
 
 
 
