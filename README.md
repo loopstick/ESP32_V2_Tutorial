@@ -578,6 +578,8 @@ NeoPixel example code:
     - [12h_NeoPixel_RGB.ino](/examples/12_NeoPixel/12h_NeoPixel_RGB/12h_NeoPixel_RGB.ino) - RGB LED controls NeoPixel color
     -->
 
+
+
 Additional Resources:
 - [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
