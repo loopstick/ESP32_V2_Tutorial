@@ -422,8 +422,6 @@ void loop(){
   - Fade your LED with data from an LDR.
     - [examples/PWM_analogWrite_LED_LDR/PWM_analogWrite_LED_LDR.ino](/examples/PWM_analogWrite_LED_LDR/PWM_analogWrite_LED_LDR.ino)
 
-
-
 #### RGB LEDs
 RGB LEDs are really handy for non-text, non-serial debug and they make really pretty colors!
 
@@ -446,7 +444,7 @@ Some other online information about RGB LEDs
  - https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout
  - https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/
 
-## INTRODUCING - the ART 385 hardware platform !!!
+<!-- ## INTRODUCING - the ART 385 hardware platform !!!
 ![ESP32_Art385_Platform](/images/ESP32_Art385_Platform.png)
 
 - Here's a layout that will allow you to use all of the components you have to write code and prototype functionality.
@@ -469,14 +467,10 @@ Some other online information about RGB LEDs
       - or
     - use in place of LDR
 
-
-
 - Art 385 Platform Test - [Color Flashing](/examples/Art385_Platform_Test/Art385_Platform_Test.ino) code
 - Art 385 Platform Test - [Color Fading](/examples/Art385_Platform_Fade/Art385_Platform_Fade.ino) code
 - Art 385 Platform Test - [Citrus Strawberry](/examples/Art385_Platform_CitrusStrawberry/Art385_Platform_CitrusStrawberry.ino)
-
-
-
+-->
 
 
 
@@ -485,7 +479,6 @@ Some other online information about RGB LEDs
  - Using delay() to control timing is probably one of the very first things you learned when experimenting with the Arduino.  Timing with delay() is simple and straightforward, but it does cause problems down the road when you want to add additional functionality.  The problem is that delay() is a "busy wait" that monopolizes the processor.
 
 - During a delay() call, you can’t respond to inputs, you can't process any data and you can’t change any outputs.  Delay() ties up 100% of the processor.  So, if any part of your code uses a delay(), everything else is dead in the water for the duration.
-
 
   - **[Adafruit Multi-Tasking Tutorial](https://learn.adafruit.com/multi-tasking-the-arduino-part-1/overview)**
 
@@ -524,12 +517,9 @@ Use a transistor to control a higher current for a motor.
     - ALWAYS look up the pinout before applying power.
       - or else 爆炸
 
-
 ![CircuitExample](/images/MotorTransistor_AA.jpg)
 
-
 You can test this with any of the code above for driving an LED, replacing the LED with the motor and transistor circuit.
-
 
 It's important to note that we are now using a separate power source for the motor. There are good reasons for doing so...
 
@@ -537,6 +527,37 @@ It's important to note that we are now using a separate power source for the mot
 #### References:
 - [Arduino Transistor Motor Control](https://www.arduino.cc/en/Tutorial/TransistorMotorControl)
 - [Using a Transistor to Control High Current Loads](http://itp.nyu.edu/physcomp/labs/motors-and-transistors/using-a-transistor-to-control-high-current-loads-with-an-arduino/)
+
+*******************************************************************************
+### NeoPixels (low-current)
+
+NeoPixels are individually addressable (WS2812B) RGB LEDs that can be chained together to create a string of lights. They are very bright and can be used to create a wide range of colors. They are available in a variety of form factors, including strips, rings, and matrices. They are typically controlled by a single data line and can be powered by 5V. That said, our Arduino can only supply a limited amount of current, so we need to be careful when powering neoPixels.  
+
+If you want to understand addressable LEDs (aka neoPixels), read this guide!!
+- [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+
+<img src="/images/neopixel_Stick_cropped.jpg" width="650">
+
+We can start with a simple test to get familiar with the NeoPixel library. When we're ready to control larger numbers of NeoPixels, we'll need to consider power requirements and how to power them safely.
+
+<img src="/examples/12_NeoPixel/NeoPixel_stick_bb.png" width="850">
+
+NeoPixel example code:
+  - FIRST -> install the Adafruit [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) library
+  - [12a_NeoPixel_simpleTest.ino](/examples/12_NeoPixel/12a_NeoPixel_simpleTest/12a_NeoPixel_simpleTest.ino)
+    - [12b_NeoPixel_strandtest.ino](/examples/12_NeoPixel/12b_NeoPixel_strandtest/12b_NeoPixel_strandtest.ino)
+    <!-- CoPilot suggestions
+    - [12c_NeoPixel_rainbowCycle.ino](/examples/12_NeoPixel/12c_NeoPixel_rainbowCycle/12c_NeoPixel_rainbowCycle.ino)
+    - [12d_NeoPixel_Potentiometer.ino](/examples/12_NeoPixel/12d_NeoPixel_Potentiometer/12d_NeoPixel_Potentiometer.ino)  - potentiometer controls brightness
+    - [12e_NeoPixel_PIR.ino](/examples/12_NeoPixel/12e_NeoPixel_PIR/12e_NeoPixel_PIR.ino) - PIR motion sensor triggers rainbow cycle
+    - [12f_NeoPixel_Ultrasonic.ino](/examples/12_NeoPixel/12f_NeoPixel_Ultrasonic/12f_NeoPixel_Ultrasonic.ino) - ultrasonic distance sensor controls number of lit pixels
+    - [12g_NeoPixel_SoundSensor.ino](/examples/12_NeoPixel/12g_NeoPixel_SoundSensor/12g_NeoPixel_SoundSensor.ino) - sound sensor controls brightness
+    - [12h_NeoPixel_RGB.ino](/examples/12_NeoPixel/12h_NeoPixel_RGB/12h_NeoPixel_RGB.ino) - RGB LED controls NeoPixel color
+    -->
+
+Additional Resources:
+- [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+
 
 
 
