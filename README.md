@@ -521,10 +521,10 @@ Here's the pinout for a TIP 120 Darlington transistor, rated for up to 60V and 5
 
 ![CircuitExample](/examples/13_DCmotor_transistor/Tip120.png)
 
-![CircuitExample](/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor.png)
+![CircuitExample](/examples/13_DCmotor_transistor/ESP32V2_Motor_Transistor_bb.png)
 
 Can you hook it up like this, with the motor wired directly to the microcontroller?? Yes!!
-![CircuitExample](/examples/13_DCmotor_transistor/ESP32V2_Motor_NoTransistor.png)
+<img src="/examples/13_DCmotor_transistor/ESP32V2_Motor_NoTransistor.png" width="550">
 Will it probably damage the microcontroller? YES!
 
 You can test this with any of the code above for driving an LED, replacing the LED with the motor and transistor circuit.
