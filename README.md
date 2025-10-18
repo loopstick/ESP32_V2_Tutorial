@@ -594,6 +594,34 @@ https://github.com/roopa-ramanujam/ESP32-web-api-example
 
 ***
 
+*******************************************************************************
+### Servo
+
+Servo motors are a simple and easy way to add motion to your Arduino project.
+- They 'know' their own position which makes them easy to control
+- they are not _that_ powerful (although larger, more power servos _do_ exist)
+
+<img src="/images/Servo.jpg" width="425"> <img src="/images/Servo_diagram.jpg" width="550">
+
+The 'standard' Arduino servo library doesn't work with ESP32 so we'll need to install another library:
+https://docs.arduino.cc/libraries/esp32servo/
+
+Use [library manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) in Arduino IDE or download the library .zip file and unzip into your Arduino/libraries folder
+
+
+![Servo_Potentiometer_v2_bb.png](/examples/09_Servo/Servo_Potentiometer_v2_bb.png)
+
+
+The servo needs 3 connections:
+- positive voltage (power) - in this case: 5v
+- ground (GND: 0v)
+- signal (the PWM signal from your microcontroller that tells the servo where to go)
+
+Servo example code:
+- [09a_Servo_Knob.ino](/examples/09_Servo/09a_Servo_Knob/09a_Servo_Knob.ino) - same as _Examples -> Servo -> Knob_
+- [09b_Servo_Sweep.ino](/examples/09_Servo/09b_Servo_Sweep/09b_Servo_Sweep.ino) - same as _Examples -> Servo -> Sweep_
+
+
 ***
 
 ### More to explore
