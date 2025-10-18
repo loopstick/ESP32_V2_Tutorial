@@ -679,6 +679,15 @@ If you find that your servo does not move from 0 to 180 degrees, adjust the min 
 
 ***
 
+### Let's Get Crazy (Let's Go Nuts)
+
+![ESP32V2_MotorServoNeoPixel_bb.png](/examples/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel_bb.png)
+
+Let's combine circuits and code for the DC motor, servo, and neopixel!!
+
+example code:
+- [ESP32_Servo_Sweep.ino](/examples/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel.ino)
+
 ***
 
 ### Roopa's excellent ESP32 V2 webAPI example (including how to connect to Berkeley IoT)

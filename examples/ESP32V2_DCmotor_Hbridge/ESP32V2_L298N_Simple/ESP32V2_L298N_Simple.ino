@@ -24,7 +24,7 @@ const unsigned int EN = 32;
 L298N motor(EN, IN1, IN2);
 
 void setup(){
-  // Used to display information
+
   Serial.begin(9600);
 
   // Wait for Serial Monitor to be opened
