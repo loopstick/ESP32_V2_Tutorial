@@ -604,8 +604,8 @@ Servo motors are a simple and easy way to add motion to your Arduino project.
 <img src="/images/Servo.jpg" width="350"> <img src="/images/Servo_diagram.jpg" width="450">
 
 Servo motors have three wires: power, ground, and signal. The power wire is typically red, the ground wire is typically black or brown, and the signal wire is typically yellow, orange or white. Since the ESP32 can supply limited current at only 3.3V, and servos draw considerable power, we will connect servo power to the USB pin of the ESP32 to use 5v from our computer.
- - We -could- connect servo power to the BAT (battery) pin of the ESP32. THIS IS ONLY APPROPRIATE FOR SMALL SERVOS.
- - We can also connect servo power to a separate external power source (as long as we connect all of the grounds (ESP32, servo, and external power).
+We -could- connect servo power to the BAT (battery) pin of the ESP32. THIS IS ONLY APPROPRIATE FOR SMALL SERVOS.
+We can also connect servo power to a separate external power source (as long as we connect all of the grounds (ESP32, servo, and external power).
 In this example, we just connect ESP32 ground to servo ground.
 The servo signal pins connect to any available GPIO pins on the ESP32 (in this example, we use pin 14).
 
