@@ -679,11 +679,11 @@ If you find that your servo does not move from 0 to 180 degrees, adjust the min 
 
 ***
 
-### Let's Get Crazy (Let's Go Nuts)
+### Let's Go Crazy (Let's Get Nuts)[*](https://www.youtube.com/watch?v=aXJhDltzYVQ)
 
 ![ESP32V2_MotorServoNeoPixel_bb.png](/examples/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel_bb.png)
 
-Let's combine circuits and code for the DC motor, servo, and neopixel!!
+Let's combine circuits and code for the DC motor, servo, and Neopixel!! In this example EVERYTHING is running on 5V from from power supply and we're using the L298 terminal block as a way to connect all the power and grounds leads to one another.
 
 example code:
 - [EESP32V2_MotorServoNeoPixel.ino](/examples/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel.ino)
