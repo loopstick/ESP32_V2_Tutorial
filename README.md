@@ -576,15 +576,12 @@ notes:
 - since motors take a significant amount of current, we'll use a separate power source for the motor(s)
   - this external source can be a power supply or a battery pack (or USB for SMALL motors)
   - the microcontroller will send data to the Hbridge to switch on/off the larger voltage/current
+- We can power the motor(s) with an external power supply      
+  - match the power supply voltage to the motor voltage
+  - you'll also need to consider the motor's current draw
+  - the manufacturer's specification should provide this information
 
-### L298N H-Bridge Motor Driver with External Power Supply
-
-    <img src="/images/powerSupply.jpg" width="350">
-
-    - We can power the motor(s) with an external power supply      
-      - match the power supply voltage to the motor voltage
-        - you'll also need to consider the motor's current draw
-        - the manufacturer's specification should provide this information
+            <img src="/images/powerSupply.jpg" width="350">
 
 ### L298N H-Bridge Motor Driver with 5v
   When using 5V or less for motor voltage (muscles) or less we must also provide 5V to the L298 IC (brains)
