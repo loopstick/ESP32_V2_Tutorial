@@ -630,7 +630,7 @@ Note: Min and Max angles
  represents an angle of 0 degrees, the middle of the range represents 90 degrees, and the top
  of the range represents 180 degrees. So for example, if the range is 1000us to 2000us,
  1000us would equal an angle of 0, 1500us would equal 90 degrees, and 2000us would equal 1800 degrees.
-If you find that your servo does not move from 0 to 180 degrees, adjust the min and max values in the code to match your needs.
+If you find that your servo does not move from 0 to 180 degrees, adjust the min and max values in the code to match your needs. In the example above this adjustment has been made to match the micro servos in your kits.
 
 ***
 
