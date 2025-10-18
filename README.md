@@ -601,7 +601,7 @@ Servo motors are a simple and easy way to add motion to your Arduino project.
 - They 'know' their own position which makes them easy to control
 - they are not _that_ powerful (although larger, more power servos _do_ exist)
 
-<img src="/images/Servo.jpg" width="400"> <img src="/images/Servo_diagram.jpg" width="500">
+<img src="/images/Servo.jpg" width="350"> <img src="/images/Servo_diagram.jpg" width="450">
 
 The 'standard' Arduino servo library doesn't work with ESP32 so we'll need to install another library:
 https://docs.arduino.cc/libraries/esp32servo/
