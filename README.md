@@ -574,10 +574,14 @@ notes:
   - and it can run as low as 4.5v
 
 - since motors take a significant amount of current, we'll use a separate power source for the motor(s)
-  - this external source can be a power supply or a battery pack
+  - this external source can be a power supply or a battery pack (or USB for SMALL motors)
+  - the microcontroller will send data to the Hbridge to switch on/off the larger voltage/current
 
+### L298N H-Bridge Motor Driver with 5v USB power
 
-### External Power Supply - L298N H-Bridge Motor Driver
+  <img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_5V.png" width="750">
+
+### L298N H-Bridge Motor Driver with External Power Supply
 
   <img src="/images/powerSupply.jpg" width="350">
 
@@ -588,9 +592,11 @@ notes:
 
 - the L298N can get the 5v it needs to operate from an onboard voltage regulator
     - most voltage regulators need about 2v more than their output voltage so the minimum voltage is 7v
-- we can also use the L298's onboard voltage regulator to provide 5V for our Arduino
+<!-- - we can also use the L298's onboard voltage regulator to provide 5V for our ESP32 -->
 
-<img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_powerSupply_bb.png" width="750">
+<img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_7V.png" width="750">
+
+
 
 
 *******************************************************************************
