@@ -581,7 +581,7 @@ notes:
   - you'll also need to consider the motor's current draw
   - the manufacturer's specification should provide this information
 
-            <img src="/images/powerSupply.jpg" width="350">
+  <img src="/images/powerSupply.jpg" width="350">
 
 ### L298N H-Bridge Motor Driver with 5v
   When using 5V or less for motor voltage (muscles) or less we must also provide 5V to the L298 IC (brains)
