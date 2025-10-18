@@ -552,6 +552,48 @@ It's important to note that we are now using USB as the power source for the mot
 - [Using a Transistor to Control High Current Loads](http://itp.nyu.edu/physcomp/labs/motors-and-transistors/using-a-transistor-to-control-high-current-loads-with-an-arduino/)
 
 *******************************************************************************
+### H-Bridge Motor Driver
+- The H-Bridge is a circuit that allows us to control the direction of a motor as well as its speed.
+
+![Hbridge GIF](/images/Hbridge/Hbridge.gif)
+
+### L298N H-Bridge Motor Driver
+- The L298N is a popular H-Bridge motor driver that can be used with the Arduino.
+- The L298N has 2 H-Bridges, which means it can control 2 motors.
+- The L298N can handle up to 2A per channel, and up to 35V.
+<!-- - The L298N has a built-in 5V regulator, so it can be used to power the Arduino.
+- The L298N has a built-in diode to protect against voltage spikes from the motor.
+- The L298N has a built-in heat sink, so it can handle a lot of power without overheating.
+- The L298N has a built-in current sense resistor, so it can detect when the motor is stalled. -->
+
+  <img src="/examples/ESP32V2_DCmotor_Hbridge/dual-h-bridge-motor-driver-l298n-44325-750x750.jpg" width="450">
+
+notes:
+- on many L298N modules, the power input is labeled 12v
+  - but it can handle up to 35v
+  - and it can run as low as 4.5v
+
+- since motors take a significant amount of current, we'll use a separate power source for the motor(s)
+  - this external source can be a power supply or a battery pack
+
+
+### External Power Supply - L298N H-Bridge Motor Driver
+
+  <img src="/images/powerSupply.jpg" width="350">
+
+- We can power the motor(s) with an external power supply      
+  - match the power supply voltage to the motor voltage
+    - you'll also need to consider the motor's current draw
+    - the manufacturer's specification should provide this information
+
+- the L298N can get the 5v it needs to operate from an onboard voltage regulator
+    - most voltage regulators need about 2v more than their output voltage so the minimum voltage is 7v
+- we can also use the L298's onboard voltage regulator to provide 5V for our Arduino
+
+<img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_powerSupply_bb.png" width="750">
+
+
+*******************************************************************************
 ### NeoPixels (low-current)
 
 NeoPixels are individually addressable (WS2812B) RGB LEDs that can be chained together to create a string of lights. They are very bright and can be used to create a wide range of colors. They are available in a variety of form factors, including strips, rings, and matrices. They are typically controlled by a single data line and can be powered by 5V. That said, our Arduino can only supply a limited amount of current, so we need to be careful when powering neoPixels.  
