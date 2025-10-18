@@ -621,7 +621,7 @@ The 'standard' Arduino servo library doesn't work with ESP32 so we'll need to in
 
 Servo example code:
 <!-- - [09a_Servo_Knob.ino](/examples/09_Servo/09a_Servo_Knob/09a_Servo_Knob.ino) - same as _Examples -> Servo -> Knob_  -->
-- [ESP32_Servo_Sweep.ino](/examples/ESP32_Servo/ESP32_Servo_Sweep/ESP32_Servo_Sweep.ino) - same as _Examples -> Servo -> Sweep_
+- [ESP32_Servo_Sweep.ino](/examples/ESP32V2_Servo/ESP32_Servo_Sweep/ESP32_Servo_Sweep.ino) - same as _Examples -> Servo -> Sweep_
 
 Note: Min and Max angles
  Different servos require different pulse widths to vary servo angle, but the range is
