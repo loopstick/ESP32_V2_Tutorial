@@ -578,6 +578,7 @@ notes:
   - the microcontroller will send data to the Hbridge to switch on/off the larger voltage/current
 
 ### L298N H-Bridge Motor Driver with External Power Supply
+
     <img src="/images/powerSupply.jpg" width="350">
 
     - We can power the motor(s) with an external power supply      
@@ -586,6 +587,7 @@ notes:
         - the manufacturer's specification should provide this information
 
 ### L298N H-Bridge Motor Driver with 5v
+  When using 5V or less for motor voltage (muscles) or less we must also provide 5V to the L298 IC (brains)
 
   <img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_5V.png" width="750">
 
