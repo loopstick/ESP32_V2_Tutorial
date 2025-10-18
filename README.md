@@ -686,7 +686,7 @@ If you find that your servo does not move from 0 to 180 degrees, adjust the min 
 Let's combine circuits and code for the DC motor, servo, and neopixel!!
 
 example code:
-- [ESP32_Servo_Sweep.ino](/examples/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel.ino)
+- [EESP32V2_MotorServoNeoPixel.ino](/examples/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel/ESP32V2_MotorServoNeoPixel.ino)
 
 ***
 
