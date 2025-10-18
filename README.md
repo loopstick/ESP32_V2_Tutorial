@@ -601,7 +601,7 @@ Servo motors are a simple and easy way to add motion to your Arduino project.
 - They 'know' their own position which makes them easy to control
 - they are not _that_ powerful (although larger, more power servos _do_ exist)
 
-<img src="/images/Servo.jpg" width="425"> <img src="/images/Servo_diagram.jpg" width="550">
+<img src="/images/Servo.jpg" width="400"> <img src="/images/Servo_diagram.jpg" width="500">
 
 The 'standard' Arduino servo library doesn't work with ESP32 so we'll need to install another library:
 https://docs.arduino.cc/libraries/esp32servo/
@@ -612,15 +612,26 @@ Use [library manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-i
 ![Servo_Potentiometer_v2_bb.png](/examples/09_Servo/Servo_Potentiometer_v2_bb.png)
 
 
-The servo needs 3 connections:
-- positive voltage (power) - in this case: 5v
-- ground (GND: 0v)
-- signal (the PWM signal from your microcontroller that tells the servo where to go)
+Servo motors have three wires: power, ground, and signal. The power wire is typically red, the ground wire is typically black or brown, and the signal wire is typically yellow, orange or white. Since the ESP32 can supply limited current at only 3.3V, and servos draw considerable power, we will connect servo power to the USB pin of the ESP32 to use 5v from our computer.
+ - We -could- connect servo power to the BAT (battery) pin of the ESP32. THIS IS ONLY APPROPRIATE FOR SMALL SERVOS.
+ - We can also connect servo power to a separate external power source (as long as we connect all of the grounds (ESP32, servo, and external power).
+In this example, we just connect ESP32 ground to servo ground.
+The servo signal pins connect to any available GPIO pins on the ESP32 (in this example, we use pin 14).
+
+
 
 Servo example code:
-- [09a_Servo_Knob.ino](/examples/09_Servo/09a_Servo_Knob/09a_Servo_Knob.ino) - same as _Examples -> Servo -> Knob_
+<!-- - [09a_Servo_Knob.ino](/examples/09_Servo/09a_Servo_Knob/09a_Servo_Knob.ino) - same as _Examples -> Servo -> Knob_  -->
 - [09b_Servo_Sweep.ino](/examples/09_Servo/09b_Servo_Sweep/09b_Servo_Sweep.ino) - same as _Examples -> Servo -> Sweep_
 
+Min and Max angles:
+ Different servos require different pulse widths to vary servo angle, but the range is
+ an approximately 500-2500 microsecond pulse every 20ms (50Hz). In general, hobbyist servos
+ sweep 180 degrees, so the lowest number in the published range for a particular servo
+ represents an angle of 0 degrees, the middle of the range represents 90 degrees, and the top
+ of the range represents 180 degrees. So for example, if the range is 1000us to 2000us,
+ 1000us would equal an angle of 0, 1500us would equal 90 degrees, and 2000us would equal 1800 degrees.
+If you find that your servo does not move from 0 to 180 degrees, adjust the min and max values in the code to match your needs.
 
 ***
 
