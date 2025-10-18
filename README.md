@@ -578,13 +578,15 @@ notes:
   - the microcontroller will send data to the Hbridge to switch on/off the larger voltage/current
 - We can power the motor(s) with an external power supply      
   - match the power supply voltage to the motor voltage
-  - you'll also need to consider the motor's current draw
+  - you'll also need to consider the motor's current draw and provide sufficient amperage
   - the manufacturer's specification should provide this information
 
   <img src="/images/powerSupply.jpg" width="350">
 
 ### L298N H-Bridge Motor Driver with 5v
-  When using 5V or less for motor voltage (muscles) or less we must also provide 5V to the L298 IC (brains)
+  When using 5V or less for motor voltage (muscles) or less we must also provide 5V to the L298 IC (brains).
+  - we can get 5v from the USB pin on our ESP32V2
+    - note: this only works if you have USB connected to a USB power source (computer or charging brick)
 
   <img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_5V.png" width="750">
 
@@ -637,14 +639,6 @@ If you are using more than 8 neopixels you must power them with an external powe
 Also, it is very worthwhile to follow the [Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) given in the [Adafruit NeoPixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
 
-***
-
-Roopa's excellent ESP32 V2 webAPI example (including how to connect to Berkeley IoT)
-
-https://github.com/roopa-ramanujam/ESP32-web-api-example
-
-***
-
 *******************************************************************************
 ### Servo
 
@@ -682,6 +676,16 @@ Note: Min and Max angles
  of the range represents 180 degrees. So for example, if the range is 1000us to 2000us,
  1000us would equal an angle of 0, 1500us would equal 90 degrees, and 2000us would equal 1800 degrees.
 If you find that your servo does not move from 0 to 180 degrees, adjust the min and max values in the code to match your needs. In the example above this adjustment has been made to match the micro servos in your kits.
+
+***
+
+***
+
+### Roopa's excellent ESP32 V2 webAPI example (including how to connect to Berkeley IoT)
+
+https://github.com/roopa-ramanujam/ESP32-web-api-example
+
+***
 
 ***
 
