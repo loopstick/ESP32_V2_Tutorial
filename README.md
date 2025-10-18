@@ -604,10 +604,9 @@ Servo motors are a simple and easy way to add motion to your Arduino project.
 <img src="/images/Servo.jpg" width="350"> <img src="/images/Servo_diagram.jpg" width="450">
 
 The 'standard' Arduino servo library doesn't work with ESP32 so we'll need to install another library:
-https://docs.arduino.cc/libraries/esp32servo/
-
-Use [library manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) in Arduino IDE or download the library .zip file and unzip into your Arduino/libraries folder
-
+ - https://docs.arduino.cc/libraries/esp32servo/
+  - Use [library manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) in Arduino IDE
+  - or download the library .zip file and unzip into your Arduino/libraries folder
 
 ![Servo_Potentiometer_v2_bb.png](/examples/ESP32_Servo/ESP32V2_Servo_v2_USB_bb.png)
 
