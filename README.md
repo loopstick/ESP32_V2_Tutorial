@@ -577,27 +577,31 @@ notes:
   - this external source can be a power supply or a battery pack (or USB for SMALL motors)
   - the microcontroller will send data to the Hbridge to switch on/off the larger voltage/current
 
-### L298N H-Bridge Motor Driver with 5v USB power
+### L298N H-Bridge Motor Driver with External Power Supply
+    <img src="/images/powerSupply.jpg" width="350">
+
+    - We can power the motor(s) with an external power supply      
+      - match the power supply voltage to the motor voltage
+        - you'll also need to consider the motor's current draw
+        - the manufacturer's specification should provide this information
+
+### L298N H-Bridge Motor Driver with 5v
 
   <img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_5V.png" width="750">
 
-### L298N H-Bridge Motor Driver with External Power Supply
+### L298N H-Bridge Motor Driver with 7-24V
 
-  <img src="/images/powerSupply.jpg" width="350">
-
-- We can power the motor(s) with an external power supply      
-  - match the power supply voltage to the motor voltage
-    - you'll also need to consider the motor's current draw
-    - the manufacturer's specification should provide this information
-
-- the L298N can get the 5v it needs to operate from an onboard voltage regulator
-    - most voltage regulators need about 2v more than their output voltage so the minimum voltage is 7v
-<!-- - we can also use the L298's onboard voltage regulator to provide 5V for our ESP32 -->
+- When using more than 7V the L298N can get the 5v it needs to operate from an onboard voltage regulator
+    - most voltage regulators need about 2v more than their output voltage
+        - in this special case we can --probably-- use the L298's onboard voltage regulator to provide 5V for our ESP32
 
 <img src="/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_Hbridge_1Motor_7V.png" width="750">
 
+ESP32V2_L298N_Simple
 
-
+Hbridge example code:
+  - FIRST -> install the [L298N library](https://github.com/AndreaLombardo/L298N) by Andrea Lombardo
+  - [ESP32V2_L298N_Simple.ino](/examples/ESP32V2_DCmotor_Hbridge/ESP32V2_L298N_Simple/ESP32V2_L298N_Simple.ino))
 
 *******************************************************************************
 ### NeoPixels (low-current)
