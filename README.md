@@ -609,7 +609,7 @@ https://docs.arduino.cc/libraries/esp32servo/
 Use [library manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) in Arduino IDE or download the library .zip file and unzip into your Arduino/libraries folder
 
 
-![Servo_Potentiometer_v2_bb.png](/examples/09_Servo/Servo_Potentiometer_v2_bb.png)
+![Servo_Potentiometer_v2_bb.png](/examples/ESP32_Servo/ESP32V2_Servo_v2_USB_bb.png)
 
 
 Servo motors have three wires: power, ground, and signal. The power wire is typically red, the ground wire is typically black or brown, and the signal wire is typically yellow, orange or white. Since the ESP32 can supply limited current at only 3.3V, and servos draw considerable power, we will connect servo power to the USB pin of the ESP32 to use 5v from our computer.
