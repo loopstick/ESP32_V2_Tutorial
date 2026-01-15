@@ -16,10 +16,8 @@ Where is the Stemma QT connector?
 ![Stemma QT connector](/images/ESP32V2_StemmaQT.jpg)
 
 What do we use to connect Stemma QT modules?
-![Stemma QT cable](https://cdn-shop.adafruit.com/970x728/4399-00.jpg)
-
-
-<img src="https://cdn-shop.adafruit.com/970x728/4399-00.jpg" width="400">
+<!--![Stemma QT cable](https://cdn-shop.adafruit.com/970x728/4399-00.jpg) -->
+<img src="https://cdn-shop.adafruit.com/970x728/4399-00.jpg" width="600">
 
 
 #### Tutorial overview
