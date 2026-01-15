@@ -29,8 +29,6 @@ What do we use to connect Stemma QT modules?
 
 
 [Adafruit DRV2605L Haptic Controller Breakout](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/)
-![Haptic Motor Driver](/StemmaQT/images/HapticMotorDriver.jpg)
-
 <img src="/StemmaQT/images/HapticMotorDriver.jpg" width="600">
 
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
