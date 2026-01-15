@@ -20,9 +20,9 @@ What do we use to connect Stemma QT modules?
 <img src="https://cdn-shop.adafruit.com/970x728/4399-00.jpg" width="800">
 
 
-#### Stemma QT modules
+### Stemma QT modules
 
-Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout
+#### Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout
 - accelerometer which can tell you which direction is down towards the Earth (by measuring gravity) or how fast the board is accelerating in 3D space
 - gyroscope that can measure spin and twist
 - magenetometer that can sense where the strongest magnetic force is coming from, generally used to detect magnetic north
@@ -35,7 +35,7 @@ Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout
 [Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout) tutorial
 
 
-Adafruit DRV2605L Haptic Controller Breakout (+ vibration motor already soldered in place (thanks Romy!))
+#### Adafruit DRV2605L Haptic Controller Breakout (+ vibration motor already soldered in place (thanks Romy!))
 - allows us to control a tiny vibration motor with our ESP32v2
 - the breakout/driver and the associated library handle the electrical specifics of making the motor move in a variety of ways
 
