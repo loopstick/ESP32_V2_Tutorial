@@ -3,7 +3,7 @@
 **This tutorial created by Sudhu Tewari 2026**
 
 #### Tutorial overview
-The tutorial will focus on using [Stemma QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) sensor and output modules with your [Adafruit ESP32 Feather v2](https://www.adafruit.com/product/5400)) and the Arduino IDE.
+The tutorial will focus on using [Stemma QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) sensor and output modules with your [Adafruit ESP32 Feather v2](https://www.adafruit.com/product/5400) and the Arduino IDE.
 
 Stemma QT connectors allow us to quickly connect different modules without having to worry about wiring electrical circuits correctly. Stemma QT modules use the I2C communication protocol but allow us to get systems working without knowing exactly how I2C works.
 
@@ -16,9 +16,9 @@ Where is the Stemma QT connector?
 ![Stemma QT connector](/images/ESP32V2_StemmaQT.jpg)
 
 
-******=*=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*
+*=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
 
-We will cover how to install Arduino on your laptop; how to understand, modify, and write Arduino programs; how to connect input devices and sensors to your ESP32 and read them from a program; and how to connect actuators (LEDs, motors, speakers) and control them from a program. Other topics will be covered as interest dictates and time permits.
+<!-- We will cover how to install Arduino on your laptop; how to understand, modify, and write Arduino programs; how to connect input devices and sensors to your ESP32 and read them from a program; and how to connect actuators (LEDs, motors, speakers) and control them from a program. Other topics will be covered as interest dictates and time permits.
 
 #### Additional Resources
 What is Arduino anyway?

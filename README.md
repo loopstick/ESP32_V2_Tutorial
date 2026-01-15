@@ -199,12 +199,12 @@ void loop() {
 - cycle through ALL the colors
   - [ESP32V2_NeoPixel_SingleNumColor_v1](/examples/ESP32V2_NeoPixel_SingleNumColor_v1/ESP32V2_NeoPixel_SingleNumColor_v1.ino)
 
-*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
 
 ## Mdes Prototyping - Human Augmentation project diverges here!!
 - [Prototyping with Stemma QT modules](https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/README.md)
 
-*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=
 
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
