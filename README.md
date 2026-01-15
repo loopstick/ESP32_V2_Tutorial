@@ -155,7 +155,8 @@ Where is the neoPixel?
 
 Let's blink the neoPixel!!
 - download sketch here: [ESP32V2_Blink_NeoPixel_simple](/examples/ESP32V2_Blink_NeoPixel_simple/ESP32V2_Blink_NeoPixel_simple.ino)
-or copy below
+
+or copy below:
 ```cpp
 #include <Adafruit_NeoPixel.h>
 
