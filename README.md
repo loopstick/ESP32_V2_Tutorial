@@ -153,7 +153,51 @@ Where is the neoPixel?
 
 - more information about neoPixels: [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
 
+Let's blink the neoPixel!!
+- download sketch here: [ESP32V2_Blink_NeoPixel_simple](/examples/ESP32V2_Blink_NeoPixel_simple)
+or copy below
 ```cpp
+#include <Adafruit_NeoPixel.h>
+
+// Define the NeoPixel pin and number of pixels
+#define PIN_NEO_PIXEL 0      // Pin 0 for the onboard NeoPixel on many Adafruit ESP32 boards
+#define PIXEL_COUNT 1        // There is one onboard NeoPixel
+
+// Parameter 1 = number of pixels in strip
+// Parameter 2 = Arduino pin number (most boards use 0)
+// Parameter 3 = pixel type flags, add NEO_KHZ800 (800 KHz) or NEO_KHZ400 (400 KHz) as appropriate
+Adafruit_NeoPixel pixels(PIXEL_COUNT, PIN_NEO_PIXEL, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+  // Initialize serial communication
+  Serial.begin(115200);
+  // Initialize the NeoPixel strip object
+  pixels.begin();
+  // Set the brightness (optional, 0-255)
+  //pixels.setBrightness(50); // Set brightness to ~20% (50/255)
+  // Turn off all pixels initially
+  pixels.show();
+}
+
+void loop() {
+  // Set the first pixel (index 0) to red (R, G, B)
+  pixels.setPixelColor(0, pixels.Color(255, 0, 0));
+  pixels.show();   // Update the NeoPixel to show the color
+  delay(500);      // Wait for 500 milliseconds
+
+  // Turn the pixel off
+  pixels.clear();  // Set all pixel colors to off
+  pixels.show();   // Update the NeoPixel
+  delay(500);      // Wait for 500 milliseconds
+}
+```
+
+##### Exercises:
+- Blink red, green, blue
+  - [ESP32V2_Blink_NeoPixel_RGB](/examples/ESP32V2_Blink_NeoPixel_RGB.ino)
+  ESP32V2_Blink_NeoPixel_simple
+- cycle through ALL the colors
+  - [DigitalRead_Toggle](/examples/DigitalRead_Toggle/DigitalRead_Toggle.ino)
 
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
