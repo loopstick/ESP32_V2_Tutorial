@@ -1,7 +1,7 @@
-### Hands-on ESP32 Tutorial
+### Hands-on ESP32v2 Tutorial
 
-**This tutorial created by Sudhu Tewari 2025**
- - from materials originally created by: Michael Shiloh and Judy Castro for *Teach Me To Make*
+**This tutorial created by Sudhu Tewari 2025, revised 2026**
+ - building on materials originally created by: Michael Shiloh and Judy Castro for *Teach Me To Make*
 
 #### Tutorial overview
 The tutorial will focus on getting you up and running quickly, so that you will understand the basic procedures for working with your ESP32 (specifically the [Adafruit ESP32 Feather v2](https://www.adafruit.com/product/5400)) and the Arduino IDE and can explore further on your own.
@@ -199,9 +199,10 @@ void loop() {
 - cycle through ALL the colors
   - [ESP32V2_NeoPixel_SingleNumColor_v1](/examples/ESP32V2_NeoPixel_SingleNumColor_v1/ESP32V2_NeoPixel_SingleNumColor_v1.ino)
 
-
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 ## Mdes Prototyping - Human Augmentation project diverges here!!
-
+- [Prototyping with Stemma QT modules](https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/README.md)
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
