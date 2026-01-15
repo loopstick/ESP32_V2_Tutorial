@@ -154,7 +154,7 @@ Where is the neoPixel?
 - more information about neoPixels: [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
 
 Let's blink the neoPixel!!
-- download sketch here: [ESP32V2_Blink_NeoPixel_simple](/examples/ESP32V2_Blink_NeoPixel_simple)
+- download sketch here: [ESP32V2_Blink_NeoPixel_simple](/examples/ESP32V2_Blink_NeoPixel_simple/ESP32V2_Blink_NeoPixel_simple.ino)
 or copy below
 ```cpp
 #include <Adafruit_NeoPixel.h>
