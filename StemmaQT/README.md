@@ -35,6 +35,8 @@ What do we use to connect Stemma QT modules?
 <!-- [Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout) tutorial -->
 
 
+
+
 #### Adafruit DRV2605L Haptic Controller Breakout (+ vibration motor already soldered in place (thanks Romy!)) - [tutorial](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/)
 - allows us to control a tiny vibration motor with our ESP32v2
 - the breakout/driver and the associated library handle the electrical specifics of making the motor move in a variety of ways
