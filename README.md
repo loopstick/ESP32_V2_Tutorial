@@ -148,13 +148,12 @@ Where is the LED that we're turning on and off???
 ### using the onboard NeoPixel -
 The ESP32v2 Feather has a built-in neopixel, an addressable RGB LED. This can be very useful as a status indicator or debug tool.
 
-
 Where is the neoPixel?
 ![feather v2 builtin LED](/images/ESP32V2_neoPixel.jpg)
 
 - more information about neoPixels: [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
 
-
+```cpp
 
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
