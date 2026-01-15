@@ -22,7 +22,7 @@ What do we use to connect Stemma QT modules?
 
 ### Stemma QT modules
 
-#### Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout
+#### Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout - [tutorial](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout)
 - accelerometer which can tell you which direction is down towards the Earth (by measuring gravity) or how fast the board is accelerating in 3D space
 - gyroscope that can measure spin and twist
 - magenetometer that can sense where the strongest magnetic force is coming from, generally used to detect magnetic north
@@ -32,15 +32,15 @@ What do we use to connect Stemma QT modules?
 <img src="/StemmaQT/images/LSM9DS1.jpg" width="600">
 <!-- ![LSM9DS1](https://cdn-learn.adafruit.com/assets/assets/000/092/391/large1024/sensors_qt_short_P4636Front.jpg?1592501321) -->
 
-[Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout) tutorial
+<!-- [Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout) tutorial -->
 
 
-#### Adafruit DRV2605L Haptic Controller Breakout (+ vibration motor already soldered in place (thanks Romy!))
+#### Adafruit DRV2605L Haptic Controller Breakout (+ vibration motor already soldered in place (thanks Romy!)) - [tutorial](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/)
 - allows us to control a tiny vibration motor with our ESP32v2
 - the breakout/driver and the associated library handle the electrical specifics of making the motor move in a variety of ways
 
 <img src="/StemmaQT/images/HapticMotorDriver.jpg" width="600">
 
-[Adafruit DRV2605L Haptic Controller Breakout](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/) tutorial
+<!-- [Adafruit DRV2605L Haptic Controller Breakout](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/) tutorial -->
 
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
