@@ -108,6 +108,8 @@ More on specific functions and variables soon! Let's make something happen in th
 
 ### How to use Arduino to turn something ON and OFF
 How does the program (sketch) do this? (all described in the [Blink tutorial](http://arduino.cc/en/Tutorial/Blink))
+some more code anatomy - info about Arduino [Sketches](https://docs.arduino.cc/learn/programming/sketches/)
+
 ```cpp
 /*
   Blink
@@ -138,12 +140,18 @@ void loop() {
 }
 ```
 Where is the LED that we're turning on and off???
-
 ![feather v2 builtin LED](/images/ESP32V2_internalLED.png)
-some more code anatomy - info about an Arduino [Sketch](https://www.arduino.cc/en/tutorial/sketch)
 
 ##### Exercise:
 - combine HelloWorld and Blink to make a program that shows it's working with physical and digital output.
+
+### using the onboard NeoPixel -
+The ESP32v2 Feather has a built-in neopixel, an addressable RGB LED. This can be very useful as a status indicator or debug tool.
+Where is the neoPixel?
+![feather v2 builtin LED](/images/ESP32V2_neoPixel.png)
+
+- more information about neoPixels: [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
+
 
 
 ### Connecting to your Microcontroller - Pinouts
@@ -164,7 +172,7 @@ In order to connect inputs or outputs to your microcontroller you need to know w
 
 
 
-### Using a solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.)
+### Using a Solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.)
 
 The Solderless Breadboard
 - [Breadboards for Beginners](https://learn.adafruit.com/breadboards-for-beginners/breadboards)
