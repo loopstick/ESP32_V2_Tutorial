@@ -196,9 +196,8 @@ void loop() {
 ##### Exercises:
 - Blink red, green, blue
   - [ESP32V2_Blink_NeoPixel_RGB](/examples/ESP32V2_Blink_NeoPixel_RGB.ino)
-  ESP32V2_Blink_NeoPixel_simple
 - cycle through ALL the colors
-  - [DigitalRead_Toggle](/examples/DigitalRead_Toggle/DigitalRead_Toggle.ino)
+  - [ESP32V2_NeoPixel_SingleNumColor_v1](/examples/ESP32V2_NeoPixel_SingleNumColor_v1/ESP32V2_NeoPixel_SingleNumColor_v1.ino)
 
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
