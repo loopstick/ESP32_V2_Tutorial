@@ -195,7 +195,7 @@ void loop() {
 
 ##### Exercises:
 - Blink red, green, blue
-  - [ESP32V2_Blink_NeoPixel_RGB](/examples/examples/ESP32V2_Blink_NeoPixel_RGB/ESP32V2_Blink_NeoPixel_RGB.ino)
+  - [ESP32V2_Blink_NeoPixel_RGB](/examples/ESP32V2_Blink_NeoPixel_RGB/ESP32V2_Blink_NeoPixel_RGB.ino)
 - cycle through ALL the colors
   - [ESP32V2_NeoPixel_SingleNumColor_v1](/examples/ESP32V2_NeoPixel_SingleNumColor_v1/ESP32V2_NeoPixel_SingleNumColor_v1.ino)
 
