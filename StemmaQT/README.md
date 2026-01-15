@@ -17,16 +17,18 @@ Where is the Stemma QT connector?
 
 What do we use to connect Stemma QT modules?
 <!--![Stemma QT cable](https://cdn-shop.adafruit.com/970x728/4399-00.jpg) -->
-<img src="https://cdn-shop.adafruit.com/970x728/4399-00.jpg" width="600">
+<img src="https://cdn-shop.adafruit.com/970x728/4399-00.jpg" width="800">
 
 
-#### Tutorial overview
-
+#### Stemma QT modules
 
 [Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout)
 
 ![LSM9DS1](/StemmaQT/images/LSM9DS1.jpg)
-![LSM9DS1](https://cdn-learn.adafruit.com/assets/assets/000/092/391/large1024/sensors_qt_short_P4636Front.jpg?1592501321)
+<!-- ![LSM9DS1](https://cdn-learn.adafruit.com/assets/assets/000/092/391/large1024/sensors_qt_short_P4636Front.jpg?1592501321) -->
 
+
+[Adafruit DRV2605L Haptic Controller Breakout](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/)
+![Maptic Motor Driver](/StemmaQT/images/HapticMotorDriver.jpg)
 
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
