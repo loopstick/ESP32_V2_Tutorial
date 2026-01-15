@@ -16,6 +16,7 @@ Where is the Stemma QT connector?
 ![Stemma QT connector](/images/ESP32V2_StemmaQT.jpg)
 
 [Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout)
+
 ![LSM9DS1](https://learn.adafruit.com/assets/92391)
 
 
