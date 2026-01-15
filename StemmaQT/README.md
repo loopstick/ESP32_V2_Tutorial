@@ -17,7 +17,7 @@ Where is the Stemma QT connector?
 
 [Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout)
 
-![LSM9DS1](https://learn.adafruit.com/assets/92391)
+![LSM9DS1](/images/LSM9DS1.jpg))
 
 
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
