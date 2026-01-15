@@ -36,10 +36,11 @@ Adafruit LSM9DS1 Accelerometer + Gyro + Magnetometer 9-DOF Breakout
 
 
 Adafruit DRV2605L Haptic Controller Breakout (+ vibration motor already soldered in place (thanks Romy!))
-- allows us to control a tiny vibration motor with our ESP32_V2_Tutorial
+- allows us to control a tiny vibration motor with our ESP32v2
 - the breakout/driver and the associated library handle the electrical specifics of making the motor move in a variety of ways
 
 <img src="/StemmaQT/images/HapticMotorDriver.jpg" width="600">
+
 [Adafruit DRV2605L Haptic Controller Breakout](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/) tutorial
 
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
