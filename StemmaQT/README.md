@@ -55,6 +55,7 @@ Step-by-Step for Any/Every Sensor/Actuator
   - _Tools -> Manage Libraries_
   - _Sketch -> Include Library -> Manage Libraries_
 - upload and run library example code
+  - _Examples -> *library -> *example_
 
 
 
