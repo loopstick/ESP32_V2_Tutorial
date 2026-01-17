@@ -52,8 +52,8 @@ Before we get into designing (and implementing) our super cool system, let's fir
 Step-by-Step for Any/Every Sensor/Actuator
 - RTFM
 - install Library
- - ~Tools -> Manage Libraries~
- - ~Sketch -> Include Library -> Manage Libraries~
+ - _Tools -> Manage Libraries_
+ - _Sketch -> Include Library -> Manage Libraries_
 - upload and run library example code
 
 
