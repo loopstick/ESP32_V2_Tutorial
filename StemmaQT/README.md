@@ -49,6 +49,15 @@ Before we get into designing (and implementing) our super cool system, let's fir
   - run the most basic example code to test
 
 
+Step-by-Step for Any/Every Sensor/Actuator
+- RTFM
+- install Library
+ - ~Tools -> Manage Libraries~
+ - ~Sketch -> Include Library -> Manage Libraries~
+- upload and run library example code
+
+
+
 
 
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
