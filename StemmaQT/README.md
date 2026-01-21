@@ -73,7 +73,6 @@ Step-by-Step for Any/Every Sensor/Actuator
     <img src="/StemmaQT/images/DRV2605_LibManager2.png" width="200">
 
 - open example code  -> most simple = "basic"  -> upload code and see what it does!!
-  
       <img src="/StemmaQT/images/DRV2605_basic.png" width="650">
 
   - Once uploaded
