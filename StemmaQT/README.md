@@ -69,7 +69,8 @@ Step-by-Step for Any/Every Sensor/Actuator
     
   - search for library name -> install latest version
         
-   <img src="/StemmaQT/images/DRV2605_LibManager.png" width="200">
+    <!-- <img src="/StemmaQT/images/DRV2605_LibManager.png" width="200"> -->
+    <img src="/StemmaQT/images/DRV2605_LibManager2.png" width="200">
 
 
 
