@@ -64,13 +64,17 @@ Step-by-Step for Any/Every Sensor/Actuator
 
 - install Library
   - _Tools -> Manage Libraries_
+    
     <img src="/StemmaQT/images/ManageLibraries_Sketch.png" width="600">
     
   - _Sketch -> Include Library -> Manage Libraries_
+    
     <img src="/StemmaQT/images/ManageLibraries_Tools.png" width="600">
+    
       - search for library name
       - install latest version
-      <img src="/StemmaQT/images/DRV2605_LibManager.png" width="400">
+        
+   <img src="/StemmaQT/images/DRV2605_LibManager.png" width="400">
 
 
 
