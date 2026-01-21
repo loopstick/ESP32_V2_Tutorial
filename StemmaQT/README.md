@@ -63,9 +63,9 @@ Step-by-Step for Any/Every Sensor/Actuator
 #### Adafruit DRV2605L Haptic Controller Breakout
 
 - install Library
-  - _Tools -> Manage Libraries_ OR _Sketch -> Include Library -> Manage Libraries_
+  - _Tools -> Manage Libraries_   OR   _Sketch -> Include Library -> Manage Libraries_
     
-    <img src="/StemmaQT/images/ManageLibraries_Sketch.png" width="600"><img src="/StemmaQT/images/ManageLibraries_Tools.png" width="600">
+    <img src="/StemmaQT/images/ManageLibraries_Sketch.png" width="400"><img src="/StemmaQT/images/ManageLibraries_Tools.png" width="500">
     
   - search for library name -> install latest version
         
