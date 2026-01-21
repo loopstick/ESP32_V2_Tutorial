@@ -74,7 +74,7 @@ Step-by-Step for Any/Every Sensor/Actuator
 
    - open example code  -> most simple = "basic"  -> upload code and see what it does!!
   
-      <img src="/StemmaQT/images/DRV2605_basic.png" width="500">
+      <img src="/StemmaQT/images/DRV2605_basic.png" width="650">
 
 
 
