@@ -89,5 +89,6 @@ Step-by-Step for Any/Every Sensor/Actuator
 
 -> [Mag_Motor_v1](https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.ino)
 
+hardware setup:
 
-  <img src="/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.jpg" width="400">
+  <img src="/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.jpg" width="600">
