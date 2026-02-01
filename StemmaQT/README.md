@@ -84,7 +84,7 @@ Step-by-Step for Any/Every Sensor/Actuator
 
 ## Human Augmentation example project
 
-- Code to use with ESP32v2, DRV2605 haptic motor driver, and LSM9DS1 accel/mag/gyro
+- Example code to use with ESP32v2, DRV2605 haptic motor driver, and LSM9DS1 accel/mag/gyro
 - This code uses x and y magnetometer values to 'sense' magnetic north. NeoPixel goes green and vibration motor pulses when sensor heading is close to magnetic north
 
 -> [Mag_Motor_v1](https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.ino)
