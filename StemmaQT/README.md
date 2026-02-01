@@ -64,11 +64,11 @@ Step-by-Step for Any/Every Sensor/Actuator
 
 - install Library
   - _Tools -> Manage Libraries_   OR   _Sketch -> Include Library -> Manage Libraries_
-    
+
     <img src="/StemmaQT/images/ManageLibraries_Sketch.png" width="500"> <img src="/StemmaQT/images/ManageLibraries_Tools.png" width="400">
-    
+
   - search for library name -> install latest version
-        
+
     <!-- <img src="/StemmaQT/images/DRV2605_LibManager.png" width="200"> -->
     <img src="/StemmaQT/images/DRV2605_LibManager2.png" width="200">
 
@@ -80,8 +80,7 @@ Step-by-Step for Any/Every Sensor/Actuator
   - Open the Serial Monitor and see what's printing (make sure to match the baud rate)
   - Put your finger on the breakout board and see if you feel anything (you should feel the motor moving)
 
-
-
-
-
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+## Human Augmentation example project
+-> https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.ino
