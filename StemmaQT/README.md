@@ -80,8 +80,8 @@ Step-by-Step for Any/Every Sensor/Actuator
   - Open the Serial Monitor and see what's printing (make sure to match the baud rate)
   - Put your finger on the breakout board and see if you feel anything (you should feel the motor moving)
 
-
-
-
-
 *=*=*=*==*=*=*=*=*===*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+## Human Augmentation example project
+
+
