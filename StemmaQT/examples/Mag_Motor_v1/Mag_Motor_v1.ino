@@ -3,11 +3,8 @@
 
  modified from AdafruitLSM9DS1 library - Simple Magnetometer example code created 10 Jul 2019 by Riccardo Rizzo 
 
-  This example reads the magnetic field values from the LSM9DS1
-  sensor and continuously prints them to the Serial.
-  Uses x and y values to find compass heading and lights 
-  onboard NeoPixel green when in range of due north.
-
+  This example reads the magnetic field values from the LSM9DS1 sensor and continuously prints them to the Serial.
+  Uses x and y values to find compass heading and lights onboard NeoPixel green when in range of due north.
 */
 
 #include <Arduino_LSM9DS1.h>
