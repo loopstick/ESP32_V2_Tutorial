@@ -72,9 +72,13 @@ Step-by-Step for Any/Every Sensor/Actuator
     <!-- <img src="/StemmaQT/images/DRV2605_LibManager.png" width="200"> -->
     <img src="/StemmaQT/images/DRV2605_LibManager2.png" width="200">
 
-   - open example code  -> most simple = "basic"  -> upload code and see what it does!!
-  
-      <img src="/StemmaQT/images/DRV2605_basic.png" width="200">
+- open example code  -> most simple = "basic"  -> upload code and see what it does!!
+
+<img src="/StemmaQT/images/DRV2605_basic.png" width="650">
+
+  - Once uploaded
+  - Open the Serial Monitor and see what's printing (make sure to match the baud rate)
+  - Put your finger on the breakout board and see if you feel anything (you should feel the motor moving)
 
 
 
