@@ -95,6 +95,11 @@ void loop() {
             90° = North
             180° = West
             270° = South
+      
+      NOTE: If the board isn’t level, X/Y alone will be innaccurate.
+        Correct way (tilt-compensated compass):
+          Use accelerometer to get pitch & roll
+          Rotate the magnetometer vector before atan2
       */
     // end - code copied from chatGPT:  
 
