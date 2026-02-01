@@ -202,18 +202,14 @@ void loop() {
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
 
 # Mdes Prototyping - Human Augmentation project diverges here!!
-# - [Prototyping with Stemma QT modules](https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/README.md)
+ - [Prototyping with Stemma QT modules](https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/README.md)
 
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 
-+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
-If you are NOT in MDes Prototyping continue below - otherwise go back!!!		
-
-+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-
-		
-
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+If you are NOT in MDes Prototyping continue below - otherwise go back!!!			
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
