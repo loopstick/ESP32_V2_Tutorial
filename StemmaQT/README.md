@@ -85,4 +85,4 @@ Step-by-Step for Any/Every Sensor/Actuator
 ## Human Augmentation example project
 -> https://github.com/loopstick/ESP32_V2_Tutorial/blob/master/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.ino
 
-  <img src="/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.jpg" width="200">
+  <img src="/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.jpg" width="400">
