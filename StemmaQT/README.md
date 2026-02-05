@@ -93,4 +93,5 @@ hardware setup:
 
   <img src="/StemmaQT/examples/Mag_Motor_v1/Mag_Motor_v1.jpg" width="600">
 
-possible enclosure: https://learn.adafruit.com/3d-printed-case-for-adafruit-feather
+possible enclosure: 
+- https://learn.adafruit.com/3d-printed-case-for-adafruit-feather
