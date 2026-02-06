@@ -33,6 +33,12 @@ What is ESP32?
     - [The Mac driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
     - Linux has drivers built in.
 4. [Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup#install-esp32-board-support-package-3112219)
+    - add this URL to the Additional Boards Manager URLs in Arduino Settings: "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json"
+    - install the Board Support Package (BSP)
+      - Go to the Tools → Board → Board Manager submenu.
+      - A dialog should come up with various BSPs.
+      - Search for esp32.
+      !<https://learn.adafruit.com/assets/107162>
 
   <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
 
