@@ -38,7 +38,7 @@ What is ESP32?
       - Go to the Tools → Board → Board Manager submenu.
       - A dialog should come up with various BSPs.
       - Search for esp32.
-      !<https://learn.adafruit.com/assets/107162>
+      ![BSP](https://learn.adafruit.com/assets/107162)
 
   <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
 
