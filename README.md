@@ -19,16 +19,16 @@ What is ESP32?
 
 ### Start Here - RTFM and install software & dependencies
 1. Read: Adafruit's ESP32 Feather V2 [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-esp32-feather-v2)
-  - download as [PDF](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-esp32-feather-v2.pdf)
+    - download as [PDF](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-esp32-feather-v2.pdf)
 2. Install Arduino IDE
-  - Arduino software (IDE) runs on Windows, Mac OSX, and Linux.
-  - Please download and install the (free) Arduino software prior to the workshop from http://arduino.cc/en/Main/Software.  
+    - Arduino software (IDE) runs on Windows, Mac OSX, and Linux.
+    - Please download and install the (free) Arduino software prior to the workshop from http://arduino.cc/en/Main/Software.  
 3. [Install ESP32 driver~~s~~](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup)
-  - ~~if you are not sure which USB-to-serial driver chip you have, install both!!~~
-  - from Adafruit: As of May 19, 2022 we have changed from using the SiLabs CP2102N to the CH9102F due to severe parts shortages and price increases.
-  - [The Windows driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
-  - [The Mac driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
-  - Linux has drivers built in.
+    - ~~if you are not sure which USB-to-serial driver chip you have, install both!!~~
+    - from Adafruit: As of May 19, 2022 we have changed from using the SiLabs CP2102N to the CH9102F due to severe parts shortages and price increases.
+    - [The Windows driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+    - [The Mac driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
+    - Linux has drivers built in.
 4. [Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup#install-esp32-board-support-package-3112219)
 
   <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
