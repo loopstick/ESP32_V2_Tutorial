@@ -67,6 +67,7 @@ What is ESP32?
   - https://learn.adafruit.com/adafruit-esp32-feather-v2/blink
 
 
+<!--
 #### First steps: Verifying correct installation
 
 1. Connect ESP32 via USB cable
@@ -91,15 +92,8 @@ What is ESP32?
    - Look for errors in the bottom window of the program
      - Errors? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
    - Look for an LED blinking on the board
-
-   ![Feather blink](https://cdn-learn.adafruit.com/assets/assets/000/109/609/large1024mp4/adafruit_products_FV2_Arduino_Blink.mp4)
-
-   <video src="https://cdn-learn.adafruit.com/assets/assets/000/109/609/large1024mp4/adafruit_products_FV2_Arduino_Blink.mp4" controls width="600">
-       Your browser does not support the video tag.
-   </video>
-
      - No blinking? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
-
+-->
 
 
 ### Is this thing really on?
