@@ -47,6 +47,13 @@ What is ESP32?
 
       ![BSP](https://cdn-learn.adafruit.com/assets/assets/000/107/162/medium640/esp32_s2_arduino_ide_setup_Screen_Shot_2021-12-09_at_9.58.40_AM.png?1639072797)
 
+      - install!
+      - In the Tools → Board submenu you should see ESP32 Arduino and in that dropdown it should contain the ESP32 boards along with all the latest ESP32 boards.
+
+      ![Board selection](https://cdn-learn.adafruit.com/assets/assets/000/122/485/large1024/adafruit_products_ESP32V2_Arduino_IDE_board.png?1689108512)
+
+
+
   <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
 
   <!-- - Use one of the following (whichever suits you best):
