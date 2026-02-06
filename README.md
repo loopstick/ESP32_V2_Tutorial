@@ -40,7 +40,7 @@ What is ESP32?
 
     ![Additional Boards Manager](https://cdn-learn.adafruit.com/assets/assets/000/101/641/large1024/esp32_s2_arduino_ide_setup_Screen_Shot_2021-04-19_at_3.14.19_PM.png?1618870509)
 
-    - install the Board Support Package (BSP)
+5. install the Board Support Package (BSP)
       - Go to the Tools → Board → Board Manager submenu.
       - A dialog should come up with various BSPs.
       - Search for esp32
@@ -53,7 +53,6 @@ What is ESP32?
       ![Board selection](https://cdn-learn.adafruit.com/assets/assets/000/122/485/large1024/adafruit_products_ESP32V2_Arduino_IDE_board.png?1689108512)
 
 
-
   <!-- - https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers -->
 
   <!-- - Use one of the following (whichever suits you best):
@@ -63,6 +62,9 @@ What is ESP32?
       - Board Manager: Tools > Board > Boards Manager
       - search for ESP32 - install ESP32 by Espressif Systems
       -->
+
+6. First steps: Verifying correct installation
+  - https://learn.adafruit.com/adafruit-esp32-feather-v2/blink
 
 
 #### First steps: Verifying correct installation
@@ -75,7 +77,7 @@ What is ESP32?
 2. Open Arduino software (IDE)
 
 3. Select _Tools -> Board_
-   - You have a Adafruit ESP32 Feather.
+   - You have a Adafruit Feather ESP32 V2.
 
 4. Select _Tools -> Serial Port_
    - Windows? Chose the largest COM number
@@ -88,7 +90,10 @@ What is ESP32?
    - Click “Upload”
    - Look for errors in the bottom window of the program
      - Errors? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
-   - Look for an amber LED blinking rapidly and a red LED blinking slowly on the other side of the USB connector
+   - Look for an LED blinking on the board
+
+   ![Feather blink](https://learn.adafruit.com/assets/109609)
+   
      - No blinking? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
 
 
