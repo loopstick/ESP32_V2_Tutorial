@@ -92,7 +92,11 @@ What is ESP32?
      - Errors? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
    - Look for an LED blinking on the board
 
-   ![Feather blink](https://cdn-learn.adafruit.com/assets/assets/000/109/609/large1024mp4/adafruit_products_FV2_Arduino_Blink.mp4?1647029815)
+   ![Feather blink](https://cdn-learn.adafruit.com/assets/assets/000/109/609/large1024mp4/adafruit_products_FV2_Arduino_Blink.mp4)
+
+   <video src="https://cdn-learn.adafruit.com/assets/assets/000/109/609/large1024mp4/adafruit_products_FV2_Arduino_Blink.mp4" controls width="600">
+       Your browser does not support the video tag.
+   </video>
 
      - No blinking? Raise your hand for help or visit [troubleshooting](http://arduino.cc/en/Guide/Troubleshooting)
 
