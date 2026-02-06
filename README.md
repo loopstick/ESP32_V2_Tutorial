@@ -34,7 +34,9 @@ What is ESP32?
     - Linux has drivers built in.
 4. [Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup#install-esp32-board-support-package-3112219)
     - add this URL to the Additional Boards Manager URLs in Arduino Settings:
-    ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json```
+    ```
+    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
+    ```
 
     ![Additional Boards Manager](https://cdn-learn.adafruit.com/assets/assets/000/101/641/large1024/esp32_s2_arduino_ide_setup_Screen_Shot_2021-04-19_at_3.14.19_PM.png?1618870509)
 
