@@ -25,14 +25,10 @@ What is ESP32?
   - Please download and install the (free) Arduino software prior to the workshop from http://arduino.cc/en/Main/Software.  
 - [Install ESP32 driver~~s~~ and Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup)
   - ~~if you are not sure which USB-to-serial driver chip you have, install both!!~~
-  from Adafruit:
-As of May 19, 2022 we have changed from using the SiLabs CP2102N to the CH9102F due to severe parts shortages and price increases.
-
-[The Windows driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
-
-[The Mac driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
-
-Linux has drivers built in.
+  - from Adafruit: As of May 19, 2022 we have changed from using the SiLabs CP2102N to the CH9102F due to severe parts shortages and price increases.
+  - [The Windows driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+  - [The Mac driver for the CH9102 is available here](http://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
+  - Linux has drivers built in.
 
 - [Add ESP32 to Arduino IDE Boards Manager](https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup#install-esp32-board-support-package-3112219)
 
