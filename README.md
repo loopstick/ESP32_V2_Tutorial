@@ -11,6 +11,8 @@ We will cover how to install Arduino on your laptop; how to understand, modify, 
 #### Additional Resources
 What is Arduino anyway?
  - Read about Arduino: https://www.arduino.cc/en/Guide/Introduction
+ - [The Untold History of Arduino](https://arduinohistory.github.io/)
+ - [Arduino: the Documentary](https://www.youtube.com/watch?v=D4D1WhA_mi8)
 
 What is ESP32?
  - read up on [ESP32 on Wikipedia](https://en.wikipedia.org/wiki/ESP32)
@@ -18,7 +20,8 @@ What is ESP32?
 	from [espressif](https://www.espressif.com/en/products/hardware/esp32/overview)
 
 ### Start Here - RTFM and install software & dependencies
-1. Read: Adafruit's ESP32 Feather V2 [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-esp32-feather-v2)
+1. Read:
+    - Adafruit ESP32 Feather V2 [Overview and Get Started Tutorial](https://learn.adafruit.com/adafruit-esp32-feather-v2)
     - download as [PDF](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-esp32-feather-v2.pdf)
 2. Install Arduino IDE
     - Arduino software (IDE) runs on Windows, Mac OSX, and Linux.
