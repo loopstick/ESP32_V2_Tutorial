@@ -18,6 +18,7 @@ What is ESP32?
  - read up on [ESP32 on Wikipedia](https://en.wikipedia.org/wiki/ESP32)
  - Check out the [ESP32 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 	from [espressif](https://www.espressif.com/en/products/hardware/esp32/overview)
+- [Arduino ESP32 troubleshooting](https://docs.espressif.com/projects/arduino-esp32/en/latest/troubleshooting.html)
 
 ### Start Here - RTFM and install software & dependencies
 1. Read:
