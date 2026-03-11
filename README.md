@@ -788,11 +788,28 @@ example code:
 
 ***
 
-### Roopa's excellent ESP32 V2 webAPI example (including how to connect to Berkeley IoT)
 
-https://github.com/roopa-ramanujam/ESP32-web-api-example
+
+### Using IoT Devices on the CCA Network (source: CCA HL gitHub)
+
+- https://github.com/CCAHybridLab/HLResources/tree/main/Arduino/Tutorials/IoT_Devices_CCA
+
+### p5.js - Getting Started
+- [coordinate grid reference](https://openprocessing.org/sketch/2584657)
+- [happy little skies (simple!)](https://openprocessing.org/sketch/2742742)
+- [happy little skies (with everything)](https://openprocessing.org/sketch/2584640)
+
+
+### Serial Communication with Arduino and p5.js 
+- [serial communication from Shm!](https://openprocessing.org/sketch/2578807)
+- [Web Serial and Arduino by TJ McLeish](https://openprocessing.org/sketch/2576473)
+- [Medium - via CCA HL gitHub](https://medium.com/@yyyyyyyuan/tutorial-serial-communication-with-arduino-and-p5-js-cd39b3ac10ce)
 
 ***
+
+### web API + Arduino/ESP32 examples
+- [Roopa's excellent ESP32 V2 webAPI example (including how to connect to Berkeley IoT)](https://github.com/roopa-ramanujam/ESP32-web-api-example)
+- [Shm's weather webAPI demo](https://openprocessing.org/sketch/2567926)
 
 ***
 
