@@ -788,17 +788,20 @@ example code:
 
 ***
 
-
+***
 
 ### Using IoT Devices on the CCA Network (source: CCA HL gitHub)
 
 - https://github.com/CCAHybridLab/HLResources/tree/main/Arduino/Tutorials/IoT_Devices_CCA
+  
+***
 
 ### p5.js - Getting Started
 - [coordinate grid reference](https://openprocessing.org/sketch/2584657)
 - [happy little skies (simple!)](https://openprocessing.org/sketch/2742742)
 - [happy little skies (with everything)](https://openprocessing.org/sketch/2584640)
 
+***
 
 ### Serial Communication with Arduino and p5.js 
 - [serial communication from Shm!](https://openprocessing.org/sketch/2578807)
@@ -816,7 +819,7 @@ example code:
 ### More to explore
 - **Arduino Language Reference**
   - https://www.arduino.cc/reference/en/
-
+***
 <!--
 - **Interfacing with Hardware**
  - [Interfacing with Hardware](http://playground.arduino.cc/Main/InterfacingWithHardware)
