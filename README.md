@@ -816,19 +816,26 @@ example code:
 
 ***
 
-### More to explore
-- **Arduino Language Reference**
-  - https://www.arduino.cc/reference/en/
-***
+## CCA Prototyping - Smart Object Foundations 
+- [worked example by TJ McLeish](https://github.com/tj60647/smart-object-foundations)
+
+- 
 <!--
-- **Interfacing with Hardware**
+
+### More to explore
+- **Arduino Language Reference** -> https://www.arduino.cc/reference/en/
+- **Dr Sudhu's resources page** ->
+
+***
+
+**Interfacing with Hardware**
  - [Interfacing with Hardware](http://playground.arduino.cc/Main/InterfacingWithHardware)
  - Joining inputs and outputs: switch controls speed, switch choses between two brightness levels, thermistor or other sensor changes behavior, etc.
  - Multiple output devices: play melody while controlling motor speed, etc.
  - Boolean logic, tests, and conditionals
 -->
 <!--
-- **Making sounds** 
+**Making sounds** 
   - [Melody](https://itp.nyu.edu/physcomp/labs/labs-arduino-digital-and-analog/tone-output-using-an-arduino/) tutorial
 -->
 
