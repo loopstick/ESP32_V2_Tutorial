@@ -819,12 +819,13 @@ example code:
 ## CCA Prototyping - Smart Object Foundations 
 - [worked example by TJ McLeish](https://github.com/tj60647/smart-object-foundations)
 
-- 
 <!--
+
+### Resources!!!
+- [Dr Sudhu's resources page](https://github.com/loopstick/ResourcesForClasses)
 
 ### More to explore
 - **Arduino Language Reference** -> https://www.arduino.cc/reference/en/
-- **Dr Sudhu's resources page** ->
 
 ***
 
@@ -847,7 +848,5 @@ example code:
     - .zip of the entire bundle - [Art385_ESP32toProcessing_Processing.zip](/examples/Art385_ESP32toProcessing/Art385_ESP32toProcessing.zip)
 -->
 
-***
 
-### Resources!!!
-- [Dr Sudhu's resources page](https://github.com/loopstick/ResourcesForClasses)
+
